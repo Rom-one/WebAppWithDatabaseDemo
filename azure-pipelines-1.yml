@@ -50,7 +50,8 @@ jobs:
       SonarCloud: 'sonarcloud-connection'
       organization: 'romainsergeant'
       scannerMode: 'MSBuild'
-      projectKey: 'WebAppWithDatabaseDemo'
+      projectKey: 'romainsergeant_WebAppWithDatabaseDemo.git'
+      projectName: 'WebAppWithDatabaseDemo.git'
   
   - task: DotNetCoreCLI@2
     displayName: Build
